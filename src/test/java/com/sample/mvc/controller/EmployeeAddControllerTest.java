@@ -71,8 +71,8 @@ public class EmployeeAddControllerTest {
 	@Test
 	public void testSetEmployeeService() {
 		EmployeeService employeeService = new EmployeeService();
-//		assertNotNull(employeeService);
-		assertNotNull(null);
+		assertNotNull(employeeService);
+		//assertNotNull(null);
 	}
 
 	@Test
