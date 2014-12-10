@@ -78,6 +78,7 @@ public class EmployeeAddControllerTest {
 	@Test
 	public void testOnsubmit() {
 		emp.setCode(11);
+		
 		emp.setName("cybage");
 		emp.setCity("Delhi");
 		employee.setCode(12);
