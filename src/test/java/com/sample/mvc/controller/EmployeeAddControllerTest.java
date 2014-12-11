@@ -73,8 +73,6 @@ public class EmployeeAddControllerTest {
 		EmployeeService employeeService = new EmployeeService();
 		assertNotNull(employeeService);
 		//assertNotNull(null);
-		
-		
 	}
 
 	@Test
