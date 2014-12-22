@@ -132,7 +132,7 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn
 			<sonar.language>java</sonar.language>
                    <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
             <sonar.clover.reportPath>target/site/clover/clover.xml</sonar.clover.reportPath>        
-            <clover.version>2.9</clover.version>
+            <clover.version>2.9</clover.version> -->
        
          <!-- <sonar.sources>bork</sonar.sources>
             <sonar.exclusions>**/clover/src-instrumented/**</sonar.exclusions>  -->
