@@ -190,7 +190,7 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn</license>
               <goal>sonar</goal>
             </goals>
             <configuration>
-              <sonar.core.codeCoveragePlugin>clover</sonar.core.codeCoveragePlugin>
+              <sonar.java.CoveragePlugin>clover</sonar.java.CoveragePlugin>
               <sonar.language>java</sonar.language>
               <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
               <sonar.clover.reportPath>target/site/clover/clover.xml</sonar.clover.reportPath>
@@ -199,7 +199,7 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn</license>
           </execution>
         </executions>
         <configuration>
-          <sonar.core.codeCoveragePlugin>clover</sonar.core.codeCoveragePlugin>
+          <sonar.java.CoveragePlugin>clover</sonar.java.CoveragePlugin>
           <sonar.language>java</sonar.language>
           <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
           <sonar.clover.reportPath>target/site/clover/clover.xml</sonar.clover.reportPath>

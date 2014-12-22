@@ -90,7 +90,7 @@
 <build>
 
 <plugins>      
-       <!-- <plugin>
+      <!--  <plugin>
 	        <groupId>com.atlassian.maven.plugins</groupId>
 	        <artifactId>maven-clover2-plugin</artifactId>
 	        <version>3.1.12</version>
@@ -120,24 +120,24 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn
 			     </goals>
 			   </execution>
 			</executions>
-	   </plugin> -->
+	   </plugin>
       
       
-    <!--   <plugin>
+      <plugin>
 	      <groupId>org.codehaus.mojo</groupId>
 	      <artifactId>sonar-maven-plugin</artifactId>
 	      <version>2.4</version>
 	   <configuration>  
-			<sonar.core.codeCoveragePlugin>clover</sonar.core.codeCoveragePlugin>
+			<sonar.java.CoveragePlugin>clover</sonar.java.CoveragePlugin>
 			<sonar.language>java</sonar.language>
                    <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
             <sonar.clover.reportPath>target/site/clover/clover.xml</sonar.clover.reportPath>        
             <clover.version>2.9</clover.version>
        
-         <sonar.sources>bork</sonar.sources>
-            <sonar.exclusions>**/clover/src-instrumented/**</sonar.exclusions> 
+         <!-- <sonar.sources>bork</sonar.sources>
+            <sonar.exclusions>**/clover/src-instrumented/**</sonar.exclusions>  -->
 		
-		</configuration> 
+<!--		</configuration> 
 	      
 	      <executions>
 			  <execution>
