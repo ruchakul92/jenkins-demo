@@ -90,7 +90,7 @@
 <build>
 
 <plugins>      
-      <!--  <plugin>
+        <plugin>
 	        <groupId>com.atlassian.maven.plugins</groupId>
 	        <artifactId>maven-clover2-plugin</artifactId>
 	        <version>3.1.12</version>
@@ -132,12 +132,12 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn
 			<sonar.language>java</sonar.language>
                    <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
             <sonar.clover.reportPath>target/site/clover/clover.xml</sonar.clover.reportPath>        
-            <clover.version>2.9</clover.version> -->
+            <clover.version>2.9</clover.version> 
        
          <!-- <sonar.sources>bork</sonar.sources>
             <sonar.exclusions>**/clover/src-instrumented/**</sonar.exclusions>  -->
 		
-<!--		</configuration> 
+		</configuration> 
 	      
 	      <executions>
 			  <execution>
@@ -148,7 +148,7 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn
 			   </execution>
 			</executions>
 			
-	   </plugin> -->
+	   </plugin>
 
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
