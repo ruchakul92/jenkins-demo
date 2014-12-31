@@ -12,6 +12,7 @@
     <sonar.jdbc.driver>com.mysql.jdbc.Driver</sonar.jdbc.driver>
     <sonar.host.url>http://localhost:9000/sonar</sonar.host.url>
     <sonar.jdbc.username>root</sonar.jdbc.username>
+    <sonar.clover.reportPath>target\site\clover\clover.xml</sonar.clover.reportPath>
   </properties>
   <dependencies>
     <dependency>
@@ -109,7 +110,7 @@
         <directory>C:\Workspace\EmpployeeManagementSystem\src\main\resources</directory>
       </resource>
       <resource>
-        <directory>C:\Workspace\EmpployeeManagementSystem\target\classes\groverconfig6251031877709566354</directory>
+        <directory>C:\Workspace\EmpployeeManagementSystem\target\classes\groverconfig5472184476752797246</directory>
       </resource>
     </resources>
     <testResources>
@@ -192,22 +193,10 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn</license>
             <goals>
               <goal>sonar</goal>
             </goals>
-            <configuration>
-              <sonar.java.coveragePlugin>clover</sonar.java.coveragePlugin>
-              <sonar.language>java</sonar.language>
-              <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-              <sonar.clover.reportPath>target/site/clover/clover.xml</sonar.clover.reportPath>
-              <clover.version>3.0</clover.version>
-            </configuration>
+            <configuration></configuration>
           </execution>
         </executions>
-        <configuration>
-          <sonar.java.coveragePlugin>clover</sonar.java.coveragePlugin>
-          <sonar.language>java</sonar.language>
-          <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-          <sonar.clover.reportPath>target/site/clover/clover.xml</sonar.clover.reportPath>
-          <clover.version>3.0</clover.version>
-        </configuration>
+        <configuration></configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
