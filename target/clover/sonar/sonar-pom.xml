@@ -109,7 +109,7 @@
         <directory>C:\Workspace\EmpployeeManagementSystem\src\main\resources</directory>
       </resource>
       <resource>
-        <directory>C:\Workspace\EmpployeeManagementSystem\target\classes\groverconfig7135932025159215516</directory>
+        <directory>C:\Workspace\EmpployeeManagementSystem\target\classes\groverconfig6251031877709566354</directory>
       </resource>
     </resources>
     <testResources>
@@ -197,7 +197,7 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn</license>
               <sonar.language>java</sonar.language>
               <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
               <sonar.clover.reportPath>target/site/clover/clover.xml</sonar.clover.reportPath>
-              <clover.version>2.9</clover.version>
+              <clover.version>3.0</clover.version>
             </configuration>
           </execution>
         </executions>
@@ -206,8 +206,25 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn</license>
           <sonar.language>java</sonar.language>
           <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
           <sonar.clover.reportPath>target/site/clover/clover.xml</sonar.clover.reportPath>
-          <clover.version>2.9</clover.version>
+          <clover.version>3.0</clover.version>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.0</version>
+        <executions>
+          <execution>
+            <phase>install</phase>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+            <configuration>
+              <url>http://localhost:8081/manager/text</url>
+              <server>mytomcat</server>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
