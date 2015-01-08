@@ -16,7 +16,17 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
+			<name>com.atlassian.clover.eclipse.core.prejavabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.atlassian.clover.eclipse.core.postjavabuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -56,5 +66,6 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 		<nature>com.cenqua.clover.core.clovernature</nature>
+		<nature>com.atlassian.clover.eclipse.core.clovernature</nature>
 	</natures>
 </projectDescription>
