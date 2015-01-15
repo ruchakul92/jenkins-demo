@@ -123,7 +123,7 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn
 	   </plugin>
       
       
-      <plugin>
+     <!--  <plugin>
 	      <groupId>org.codehaus.mojo</groupId>
 	      <artifactId>sonar-maven-plugin</artifactId>
 	      <version>2.4</version>
@@ -135,7 +135,7 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn
             <clover.version>3.0</clover.version>  -->
 			
          <!-- <sonar.sources>bork</sonar.sources>
-            <sonar.exclusions>**/clover/src-instrumented/**</sonar.exclusions>  -->
+            <sonar.exclusions>**/clover/src-instrumented/**</sonar.exclusions>  
 		
 		</configuration> 
 	      
@@ -148,9 +148,9 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn
 			   </execution>
 			</executions>
 			
-	   </plugin>
+	   </plugin> -->
 
-<!--       <plugin>
+      <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.0</version>
@@ -163,13 +163,13 @@ mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn
         </goals>
         
 		<configuration>
-          <url>http://localhost:8081/manager/text</url>
+          <url>http://172.27.59.74:8081/manager/text</url>
          <server>mytomcat</server>
         </configuration>
         </execution>
         </executions>
         
-      </plugin> -->
+      </plugin>
 
       
     </plugins>
