@@ -67,11 +67,11 @@
    <scope>compile</scope>
    </dependency>
    
-   <dependency>
+  <!--  <dependency>
     <groupId>com.google.sitebricks</groupId>
     <artifactId>slf4j</artifactId>
     <version>0.8.3</version>
-	</dependency>
+	</dependency> -->
    
  <dependency>
     <groupId>junit</groupId>
